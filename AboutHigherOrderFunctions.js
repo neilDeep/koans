@@ -76,6 +76,7 @@ describe("About Higher Order Functions", function() {
     expect(_.range(3)).toEqual([0, 1, 2]);
     expect(_.range(1, 4)).toEqual([1, 2, 3]);
     expect(_.range(0, -4, -1)).toEqual([0. -1. -2. -3]);
+    expect(_.range(0, -1, -2, -3).toEqual([-6]);
   });
 
   it("should use flatten to make nested arrays easy to work with", function() {
