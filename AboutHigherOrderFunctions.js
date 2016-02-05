@@ -87,9 +87,9 @@ describe("About Higher Order Functions", function() {
                      .flatten() // [0, 1, 2]
                      .map(function(x) { return x+1 } ) // [1, 2, 3]
                      .reduce(function(sum, x) { return sum + x }) // [6]
-                     .value(); // [6]
+                     .value(); // 6
 
-    expect(result).toEqual([6]);
+    expect(result).toEqual(6);
   });
 
 });
